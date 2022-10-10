@@ -1,1 +1,1 @@
-for /F "tokens=1" %U IN ('query user console ^| findstr console') DO ECHO %U
+for /F "tokens=1" %U IN ('query user console ^| findstr console') DO SET CONSOLEUSER=%U & ECHO %U
