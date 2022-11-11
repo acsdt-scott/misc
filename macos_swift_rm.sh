@@ -2,7 +2,7 @@
 
 import Foundation
 
-let path = "/Path/To/Folder"
+let path = "/Library/Application Support/Acronis"
 
 nftw(path, { child, _, type, _ in
     if (type == FTW_F) { // file
